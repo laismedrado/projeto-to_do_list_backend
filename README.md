@@ -1,6 +1,6 @@
 <<h1 align = "center"> 📃 TO-DO-LIST </h1>
 <<h2 align = "center"> PROJETO BACKEND </h2>
-<p align = "center">TO-DO-LIST  um projeto backend  desenvolvido durante o curso de desenvolvedor web fullstack da Labenu no ano de 2022.1, com o intuito de aplicar os conhecimentos nas linguagens de programação aprendidas até agora.</p>
+
 </BR>
 </BR>
 
