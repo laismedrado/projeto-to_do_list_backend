@@ -1,0 +1,53 @@
+
+###creatUser
+
+PUT http://localhost:3003/user
+Content-Type: application/json 
+
+{
+ "name": "Kelvin",
+ "nickname": "Kevinho",
+ "email": "Kelvin@hotmail.com"   
+}
+
+###getUserById
+
+GET http://localhost:3003/user/f4b16398-7efd-4d5c-b04d-87a8702c75f5
+# Content-Type: application/json
+
+
+### editUser
+
+POST http://localhost:3003/user/edit/f4b16398-7efd-4d5c-b04d-87a8702c75f5
+Content-Type: application/json
+
+{
+ "name": "Lais Medrado Soares" 
+}
+
+
+###creatTask
+
+POST http://localhost:3003/task
+Content-Type: application/json 
+
+
+{
+	  
+		"title": "Criar banco  de alunos frontend",
+		"description": "criar banco de alunos frontend dentro do prazo",
+		"limitDate": "10/05/2030",
+        "author_Id": "a7c39cf5-0d44-4881-960e-eabcead4a54e"
+	
+	
+}
+
+
+
+
+###getTaskById
+
+GET http://localhost:3003/task/086b20f3-8789-4717-aadf-4f929704ac99
+Content-Type: application/json
+
+
